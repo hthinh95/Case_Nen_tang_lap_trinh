@@ -1,0 +1,58 @@
+body {
+    margin: 20% auto;
+    background-color: black;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 100px;
+    color: darkblue;
+    animation: test 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes test {
+    0% {
+        color: red;
+    }
+
+    50% {
+        color: yellowgreen;
+
+    }
+
+    100% {
+        color: darkblue;
+
+    }
+}
+
+table {
+    justify-content: center;
+    border-collapse: collapse;
+    margin: 0 auto;
+    padding-top: 50%;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid black;
+    background-color: aqua;
+}
+
+button {
+    margin-top: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+#status {
+    font-size: 50px;
+    color: red;
+}
